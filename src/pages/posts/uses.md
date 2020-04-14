@@ -1,6 +1,8 @@
 ---
 title: "What I use"
-date: "2020-04-08" 
+category: "posts"
+date: "2020-04-08"
+
 ---
 
 <br>

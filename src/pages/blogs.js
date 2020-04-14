@@ -8,7 +8,7 @@ export default ({data})=>{
     return(
         <Layout>
           <div css={css`
-            margin-top: 3rem; 
+            margin-top: ${rhythm(1.5)}; 
         `}>
           {data.allMarkdownRemark.edges.map(({ node }) => (
                 <div key={node.id}>
@@ -42,7 +42,7 @@ export default ({data})=>{
 
 export const query = graphql`
 query {
-  allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+  allMarkdownRemark(filter: {frontmatter: {category: {in: "posts"}}},sort: { fields: [frontmatter___date], order: DESC }) {
     totalCount
     edges {
       node {

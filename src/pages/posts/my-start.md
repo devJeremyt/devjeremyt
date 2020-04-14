@@ -1,5 +1,6 @@
 ---
 title: "How I came to find programming"
+category: "posts"
 date: "2020-04-08"
 ---
 

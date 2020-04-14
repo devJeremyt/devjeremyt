@@ -1,7 +1,6 @@
 import React from 'react'
 import { useStaticQuery, Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
-import { rhythm } from "../utils/typography"
 
 export default () => {
     const data = useStaticQuery(
@@ -58,12 +57,12 @@ export default () => {
           Blogs
         </Link>
         <Link
-          to={`posts/uses/`}
+          to={`projects`}
           css={css`
           flex: auto;
           `}
         >
-          Uses
+          Projects
         </Link>
         </div>
     </div>
