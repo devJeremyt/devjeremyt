@@ -16,3 +16,12 @@ date: "2020-04-08"
 - Logitech K800 Keyboard
 - Logitech M705 Mouse
 - JideTech USB KVM Switch (Toggles Screen, mouse, and keyboard between laptop and desktop)
+
+### Software
+- VS Code
+- Mozilla Firefox as primary Browser
+- Google Chrome for viewing websites while developing
+- MongoDB Compass
+- Handbrake
+- Gimp
+- Scenebuilder for building java GUIs

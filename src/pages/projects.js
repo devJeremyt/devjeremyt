@@ -10,6 +10,7 @@ export default ({data}) => {
             <div css={css`
             display:flex;
             justify-content: space-between;
+            flex-wrap: wrap;
         `}>
             {data.allMarkdownRemark.edges.map(({node}) => (
                 <div key={node.id} css={css`

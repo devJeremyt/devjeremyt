@@ -17,10 +17,8 @@ export default ({project}) => {
                     - Build with {project.frontmatter.technologies}
                 </span>
                 </h3>
-              
+                <Img fluid={project.frontmatter.image.childImageSharp.fluid} alt='Placeholder'></Img>
             </Link>
-            
-            <Img fluid={project.frontmatter.image.childImageSharp.fluid} alt='Placeholder'></Img>
         </div>
     )
 }
