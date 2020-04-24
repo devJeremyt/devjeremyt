@@ -2,6 +2,7 @@ import React from "react"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
 import Header from '../components/header'
+import "./layout.css"
 
 export default ({ children }) => {
   return (
