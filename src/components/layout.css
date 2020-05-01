@@ -1,3 +1,12 @@
+:root {
+    --link-color: #042A2B;
+    --link-shadow: #acc8e0;
+}
 body{
-    background: #bfd7ea
+    background: #bfd7ea;
+}
+a{
+    color: var(--link-color);
+    text-shadow: none;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, var(--link-color) 1px, var(--link-color) 2px, rgba(0, 0, 0, 0) 2px);
 }
