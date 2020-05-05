@@ -4,6 +4,7 @@
 }
 body{
     background: #bfd7ea;
+    color:  hsla(0, 0%, 0%, .85);
 }
 a{
     color: var(--link-color);

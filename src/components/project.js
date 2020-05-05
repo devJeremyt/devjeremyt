@@ -14,7 +14,7 @@ export default ({project}) => {
                 <span css={css`
                     font-size: ${rhythm(.65)};             
                 `}>
-                    - Build with {project.frontmatter.technologies}
+                    - Built with {project.frontmatter.technologies}
                 </span>
                 </h3>
                 <Img fluid={project.frontmatter.image.childImageSharp.fluid} alt='Placeholder'></Img>

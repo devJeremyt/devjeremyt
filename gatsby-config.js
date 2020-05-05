@@ -26,8 +26,8 @@ module.exports = {
         name: `DevJeremyT`,
         short_name: `DevJeremyT`,
         start_url: `/`,
-        background_color: `#6b37bf`,
-        theme_color: `#6b37bf`,
+        background_color: `#fff`,
+        theme_color: `#000`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
