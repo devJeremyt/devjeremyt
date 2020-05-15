@@ -1,9 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
+import SEO from "../components/seo"
 
 export default ({data}) => (
   <Layout>
+    <SEO title={"About"}/>
     <h1>About {data.site.siteMetadata.title}</h1>
     <p>
       Since I was a child I've always tinkered with everything, trying to figure out how something worked. As a young kid this usually

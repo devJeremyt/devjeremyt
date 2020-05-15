@@ -24,4 +24,6 @@ date: "2020-04-17"
 - MongoDB Compass
 - Handbrake
 - Gimp
+- Postman
+- Windows Terminal (Primary shell is Bash)
 - Scenebuilder for building java GUIs

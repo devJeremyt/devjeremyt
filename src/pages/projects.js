@@ -3,10 +3,12 @@ import Layout from '../components/layout'
 import { graphql } from 'gatsby'
 import Project from '../components/project'
 import { css } from "@emotion/core"
+import SEO from '../components/seo'
 
 export default ({data}) => {
     return (
         <Layout>
+            <SEO title={"Projects"}/>
             <div css={css`
             display:flex;
             justify-content: space-between;
