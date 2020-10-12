@@ -1,8 +1,9 @@
 {
   "name": "devjeremyt",
   "private": true,
+  "author": "Jeremy Trimble",
   "description": "Portfolio website for Jeremy Trimble",
-  "version": "1.0",
+  "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
+    "acorn": "^6.4.2",
     "gatsby": "^2.19.45",
     "gatsby-image": "^2.3.2",
     "gatsby-plugin-emotion": "^4.2.1",
