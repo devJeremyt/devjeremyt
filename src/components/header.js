@@ -57,7 +57,7 @@ export default () => {
           Blogs
         </Link>
         <Link
-          to={`projects`}
+          to={`/projects/`}
           css={css`
           flex: auto;
           `}
