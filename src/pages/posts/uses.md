@@ -15,6 +15,7 @@ date: "2020-04-17"
 - Dell K20a Docking Station
 - Logitech K800 Keyboard
 - Logitech M705 Mouse
+- Sony WH-XB900N Wireless Headphones
 - JideTech USB KVM Switch (Toggles Screen, mouse, and keyboard between laptop and desktop)
 
 ### Software
@@ -25,5 +26,6 @@ date: "2020-04-17"
 - Handbrake
 - Gimp
 - Postman
-- Windows Terminal (Primary shell is Bash)
+- Git Bash
+- Spotify
 - Scenebuilder for building java GUIs
