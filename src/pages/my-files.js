@@ -6,7 +6,6 @@ export default ({data}) => {
     console.log(data)
     return (
         <Layout>
-            <div>Hello World</div>
             <div>
         <h1>My Site's Files</h1>
         <table>

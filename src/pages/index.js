@@ -4,7 +4,7 @@ import SEO from '../components/seo'
 
 export default () => (
     <Layout>
-      <SEO title={"Home"}/>
+      <SEO title={"Home"} description="Home Page"/>
       <div>
         <h1>
           Hey! My name is Jeremy Trimble

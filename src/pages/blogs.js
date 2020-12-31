@@ -8,7 +8,7 @@ import SEO from '../components/seo'
 export default ({data})=>{
     return(
         <Layout>
-          <SEO title={"Blogs"}/>
+          <SEO title={"Blogs"} description="Blogs Page"/>
           <div css={css`
             margin-top: ${rhythm(1.5)}; 
         `}>

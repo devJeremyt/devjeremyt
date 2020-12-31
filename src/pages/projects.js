@@ -8,7 +8,7 @@ import SEO from '../components/seo'
 export default ({data}) => {
     return (
         <Layout>
-            <SEO title={"Projects"}/>
+            <SEO title={"Projects"} description="List of Projects"/>
             <div css={css`
             display:flex;
             justify-content: space-between;
