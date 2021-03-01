@@ -1,21 +1,33 @@
 import React from "react"
 import { css } from "@emotion/core"
-import { rhythm } from "../utils/typography"
-import Header from '../components/header'
+import Header from '../components/proHeader'
 import "./layout.css"
 
-export default ({ children }) => {
-  return (
-  <div
+
+class Layout extends React.Component{
+
+  constructor(props){
+    super(props)
+    this.state= {
+      personal: false,
+    }
+  }
+
+  render(){
+    return (
+      <div
     css={css`
       margin: 0 auto;
-      max-width: 800px;
-      padding: ${rhythm(2)};
-      padding-top: ${rhythm(1.5)};
+      max-width: 1000px;
     `}
   >
     <Header/>
-    {children}
+    {this.props.children}
   </div>
-)
+    )
+  }
+
 }
+
+export default Layout;
+

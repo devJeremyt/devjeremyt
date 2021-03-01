@@ -1,7 +1,6 @@
 import React from "react"
 import { css } from "@emotion/core"
 import { Link, graphql } from 'gatsby'
-import { rhythm } from "../utils/typography"
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
@@ -9,9 +8,7 @@ export default ({data})=>{
     return(
         <Layout>
           <SEO title={"Blogs"} description="Blogs Page"/>
-          <div css={css`
-            margin-top: ${rhythm(1.5)}; 
-        `}>
+          <div>
           {data.allMarkdownRemark.edges.map(({ node }) => (
                 <div key={node.id}>
                     <Link to={node.fields.slug}
@@ -20,10 +17,7 @@ export default ({data})=>{
                         color: inherit;
                         `}
                     >
-                    <h3 css={css`
-                        margin-bottom: ${rhythm(1 / 4)};
-                        `}
-                    >
+                    <h3>
                     {node.frontmatter.title}{" "}
                     <span
                         css={css`

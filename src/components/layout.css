@@ -5,9 +5,9 @@
 body{
     background: #bfd7ea;
     color:  hsla(0, 0%, 0%, .85);
+    font-family: 'Yusei Magic', sans-serif;
 }
 a{
     color: var(--link-color);
     text-shadow: none;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, var(--link-color) 1px, var(--link-color) 2px, rgba(0, 0, 0, 0) 2px);
 }
