@@ -12,11 +12,10 @@ class Toggle extends React.Component{
     render(){
         return(
             <label css={css`
-                width: 25px;
-                height: 15px;
+                width: 60px;
+                height: 34px;
                 display: inline-block;
-                position: relative;
-                border-radius: 15px;
+                position: relative;               
             `}>
                 <input type='checkbox' css={css`
                     opacity:0;
@@ -35,26 +34,32 @@ let Slider = styled.span`
     right:0;
     left: 0;
     bottom:0;
-    background-color: #ccc;
+    background-color: #000;
     -webkit-transition: .4s;
     transition: .4s;
-    border-radius: 15px;
+    border-radius: 34px;
 
-    :before {
+    &:before {
         position: absolute;
         content: "";
-        height: 15px;
-        width: 25px;
+        height: 26px;
+        width: 26px;
         left: 4px;
         bottom:4px;
         background-color: white;
         transition: .4s;
+        border-radius:50%;
     }
 
-    input:checked + :before{
+    input:checked + &:before{
         -webkit-transform: translateX(26px);
         -ms-transform: translateX(26px);
         transform: translateX(26px);
+        
+    }
+
+    input:checked + & {
+        background-color: gray;
     }
     `
 

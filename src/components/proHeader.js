@@ -3,6 +3,7 @@ import {Link, useStaticQuery} from "gatsby"
 import { css } from "@emotion/core"
 import Img from 'gatsby-image'
 import "./main.css"
+import Toggle from '../components/toggle'
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -23,15 +24,18 @@ export default () => {
         <div css={css`
             padding: 45px 0;
         `}>
+          <Img css={css`
+          width: 250px;
+          border-radius: 115px;
+          display:in-line;
+        `} fluid={data.file.childImageSharp.fluid} alt='Placeholder'></Img>
+          <Toggle />
           <Link to={`/`}
             css={css`
               text-decoration: none;
               display: inline;
               `}>
-                 <Img css={css`
-          width: 250px;
-          border-radius: 115px;
-        `} fluid={data.file.childImageSharp.fluid} alt='Placeholder'></Img>
+                 
             <h1 css={css`
                 font-size: 6.5rem;
                 display: inline;
@@ -41,8 +45,8 @@ export default () => {
               Jeremy Trimble
             </h1>
           </Link>
-          
         </div>
+      
         <div
           css={css`
             padding: 0px 50px;

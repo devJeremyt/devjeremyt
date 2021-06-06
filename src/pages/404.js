@@ -10,7 +10,7 @@ export default () => (
         </h1>
         <p>
           This probably isn't time to ask for a favor, but if you don't mind could you email me to let me know something is broken.
-          <a href='mailto:devjeremyt@gmail.com?subject=Your website is broken'>Click here </a>
+          <a href='mailto:devjeremyt@gmail.com?subject=Your website is broken'> Click here </a>
           to send email, easy peasy. Just shoot me some information to let me know how you landed on this page.
         </p>
       </div>
