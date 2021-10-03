@@ -3,7 +3,7 @@ import {Link, useStaticQuery} from "gatsby"
 import { css } from "@emotion/core"
 import Img from 'gatsby-image'
 import "./main.css"
-import resume from "../pdfs/Resume.pdf"
+import resume from "../pdfs/resume.pdf"
 
 export default () => {
   const data = useStaticQuery(graphql`
