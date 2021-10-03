@@ -3,7 +3,7 @@ import {Link, useStaticQuery} from "gatsby"
 import { css } from "@emotion/core"
 import Img from 'gatsby-image'
 import "./main.css"
-import Toggle from '../components/toggle'
+import resume from "../pdfs/Resume.pdf"
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -28,12 +28,13 @@ export default () => {
           width: 250px;
           border-radius: 115px;
           display:in-line;
+          margin: auto;
         `} fluid={data.file.childImageSharp.fluid} alt='Placeholder'></Img>
-          <Toggle />
           <Link to={`/`}
             css={css`
               text-decoration: none;
-              display: inline;
+              display: block;
+              text-align: center;
               `}>
                  
             <h1 css={css`
@@ -54,7 +55,7 @@ export default () => {
           `}
         >
         <Link
-          to={`/about/`}
+          to={`/`}
           css={css`
           flex: auto;
           `}
@@ -81,7 +82,7 @@ export default () => {
           Projects
         </Link>
         <Link
-          to={`/Resume/`}
+          to={resume}
           css={css`
           flex: auto;
           `}
