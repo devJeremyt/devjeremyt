@@ -17,17 +17,22 @@ export default ({data})=>{
                         color: inherit;
                         `}
                     >
-                    <h3>
+                    <h3 css={css`
+                        margin-bottom: 0;
+                        `}>
                     {node.frontmatter.title}{" "}
                     <span
                         css={css`
-                        color: #bbb;
+                        color: #777;
                         `}
                     >
                     — {node.frontmatter.date}
                     </span>
                     </h3>
-                    <p>{node.excerpt}</p>
+                    <p css={css`
+                        margin-top: 2px;
+                        `}
+                        >{node.excerpt}</p>
                     </Link>
                 </div>
             ))}

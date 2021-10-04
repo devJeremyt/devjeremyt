@@ -64,13 +64,13 @@ export default () => {
           About
         </Link>
         <Link
-          to={`/blogs/`}
+          to={`/blog/`}
           css={css`
           flex: auto;
           `}
           className='nav-link'
         >
-          Blogs
+          Blog
         </Link>
         <Link
           to={`/projects/`}

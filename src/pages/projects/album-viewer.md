@@ -7,6 +7,9 @@ technologies: "Java, JavaFX"
 image: ../../images/AlbumViewer.PNG
 ---
 
-This is a desktop application built in java for creating and viewing photo albums. It allows you to compile a list of pictures in any format and saves out to a photo album file (paf) that
-can be opened again next time you run the app. It also has the ability to scroll through the album at whatever rate you desire, or you can manually flip through. I also added a filter selection
-which will apply a color overlay to the imageview.
+
+## Purpose
+This was a project for a java class. The purpose was to be able to be able to create and manipulate a photo album file.
+
+## The Application
+The user has the option to create a new photo album or open an existing one. The photo album, file extension .paf, is essentially just a csv file with the absolute paths for pictures. Once in a photo album, the user can add or remove photos. They can also scroll through the album and view the pictures. There is also an option to scroll through the photos automatically with a delay in however many seconds the user chooses. The last feature is a filter. What this does is reads the image pixel by pixel and changes the color based on which filter is chosen.

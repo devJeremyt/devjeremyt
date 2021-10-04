@@ -10,7 +10,9 @@ export default ({project}) => {
         `}>
             <Link to={project.fields.slug}>
                 <h3>{project.frontmatter.title}{" "}
-                <span>
+                <span css={css`
+                    font-size: 1rem;
+                `}>
                     - Built with {project.frontmatter.technologies}
                 </span>
                 </h3>

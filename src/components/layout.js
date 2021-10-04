@@ -17,7 +17,7 @@ class Layout extends React.Component{
     return (
       <div
     css={css`
-      margin: 0 auto;
+      margin: 0 auto 5% auto;
       max-width: 1000px;
     `}
   >
