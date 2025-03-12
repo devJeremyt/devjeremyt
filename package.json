@@ -19,7 +19,7 @@
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^10.0.27",
     "acorn": "^6.4.2",
-    "axios": "^0.21.2",
+    "axios": "^1.6.0",
     "gatsby": "^5.5.0",
     "gatsby-image": "^2.3.2",
     "gatsby-plugin-emotion": "^4.2.1",
